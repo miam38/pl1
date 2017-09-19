@@ -16,3 +16,34 @@
   105  gedit command_git 
   107  history | grep git
   108  history | grep git > help_git
+  109  gedit help_git 
+  110  gitg
+  111  sudo apt-get install gitg
+  112  gitg
+  114  rm command_git 
+  115  git add help_git 
+  116  git status
+  117  git commit
+  118  gitg
+  119  git status
+  120  git pusj
+  121  git push
+  122  gitg
+  123  git checkout HEAD^
+  124  git checkout 
+  125  git checkout HEAD^ -b branch_example
+  126  gitg
+  127  git checkout master
+  128  git checkout HEAD^ -b branch_example2
+  129  gitg
+  131  git add ttot 
+  132  git commit
+  133  gitg
+  134  git checkout master
+  136  git checkout branch_example2
+  138  git checkout master
+  140  git branch -d branch_example 
+  141  git branch -d branch_example2 
+  142  git branch -D branch_example2 
+  143  gitg
+  144  history | grep git > help_git 
