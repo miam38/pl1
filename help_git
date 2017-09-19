@@ -1,0 +1,18 @@
+   78  git --version
+   79  git clone https://github.com/miam38/pl1.git
+   90  git status
+   91  git add TP2/
+   92  git status
+   93  git commit
+   94  git config --global user.email "miam38@gmail.com"
+   95  git config --global user.name "hinda miled"
+   96  git commit
+   99  git push
+  100  git config --global push.default simple
+  101  git push
+  102  git log
+  103  git pull
+  104  history > command_git
+  105  gedit command_git 
+  107  history | grep git
+  108  history | grep git > help_git
