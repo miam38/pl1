@@ -30,17 +30,25 @@ int main()
 
     if ((A.abscisse != B.abscisse) && (A.abscisse != C.abscisse)) 
     {
-        m=(B.ordonee-A.ordonee)/(B.abscisse-A.abscisse);
-        m1=(C.ordonee-A.ordonee)/(C.abscisse-A.abscisse);
+        m=(float)(B.ordonee-A.ordonee)/(B.abscisse-A.abscisse);
+        m1=(float)(C.ordonee-A.ordonee)/(C.abscisse-A.abscisse);
         printf("valeur de m %f\nvaleur de m1 %f\n", m,m1);
     }
-        if (m==m1) 
-        {
+    else
+    {
+    }
+    
+    
+    if (m==m1) 
+    {
+        aligne = 1;
         printf("les points A B C sont alignes %d\n",aligne);
-        }
-        else 
-        {printf("les points A B C ne sont pas alignes\n");
-        }
+    }
+    else 
+    {
+        aligne = 0;
+        printf("les points A B C ne sont pas alignes%d\n",aligne);
+    }
     if ((A.abscisse != B.abscisse) && (A.abscisse != C.abscisse) )
     
         {
@@ -48,12 +56,13 @@ int main()
         }
         if (p=0) 
         {
-        
+        ortho=1;
         printf("les points A B C sont orthogonaux %d",ortho);
         }
         else 
         {
-        printf("les points A B C ne sont pas orthogonaux ");
+        ortho=0;
+        printf("les points A B C ne sont pas orthogonaux %d",ortho);
         }
     return 0;
 }
